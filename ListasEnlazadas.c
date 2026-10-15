@@ -17,7 +17,7 @@ void listar (lista *i){
     }
 }
 
-void insertar (int d, lista **i){
+void insertar (int d, lista **i ){
     if(* i == NULL){
         printf("Insertando %d en la lista\n", d);
         *i = (lista *)malloc(sizeof(lista));
